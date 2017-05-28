@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "node app",
+    "pretest": "standard --fix",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "express": "^4.15.3"
+  },
+  "devDependencies": {
+    "mocha": "^3.4.2",
+    "standard": "^10.0.2",
+    "supertest": "^3.0.0"
+  },
+  "standard": {
+    "globals": [
+      "describe",
+      "it",
+      "beforeEach"
+    ]
+  }
+}
